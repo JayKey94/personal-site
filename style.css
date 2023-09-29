@@ -10,10 +10,16 @@
     background-color: limegreen;
     font-size: larger;
     text-align: center;
+    display: inline-block;
 }
 header {
     font-size: xx-large;
     border: 2px black dashed;
     font-style: oblique;
     background-color: aqua;
+}
+
+.contact{
+    display: grid;
+    grid-template-areas: 'Name' 'Email' 'Message' 'Submit' ;
 }
