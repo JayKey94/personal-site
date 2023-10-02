@@ -1,6 +1,4 @@
-.list {
-    display: inline;
-}
+
 .links{
     display: block;
     width: 100px;
@@ -18,7 +16,6 @@ header {
     font-style: oblique;
     background-color: aqua;
 }
-
 .contact{
     display: grid;
     grid-template-areas: 'Name' 'Email' 'Message' 'Submit' ;
